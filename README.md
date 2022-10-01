@@ -5,7 +5,7 @@ The instruction of code files for research article "Resting-state global brain a
 
 Edited by Feng Han in Multimodal and Computational Neuroimaging Laborary (MCNL) at Pennsylvania State University.
 
-The file included 14 Matlab scripts (.m) corresponding to the Fig. 1-5, Fig. S1-S6, table 1, and table S1 in our manuscript.
+The file included 15 Matlab scripts (.m) corresponding to all the figures in our manuscript.
 
 
 
@@ -27,7 +27,7 @@ https://www.mathworks.com/content/dam/mathworks/mathworks-dot-com/support/sysreq
 2. Installation guide:
 https://www.mathworks.com/products/new_products/release2019b.html
 
-3. Demo (all the de-identified data to generate the figures and tables have been provided)
+3. Demo (all the de-identified data to generate the figures have been provided)
 The run time will be very short.
 
 4. Instructions for use:
