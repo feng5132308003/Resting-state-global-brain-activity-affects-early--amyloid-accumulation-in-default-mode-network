@@ -1,6 +1,6 @@
 clear
 
-load('mats/test_regr_motion_1.mat','cp_s*','csf_ptau_s2','csf_ttau_s2','csf_abeta_s2','suvr_s2','id_test*','cp_208_regr','idx_s*')
+load('test_regr_motion_1.mat','cp_s*','csf_ptau_s2','csf_ttau_s2','csf_abeta_s2','suvr_s2','id_test*','cp_208_regr','idx_s*')
 
 figure('color','w','Position', [100 100 1800 1800]),
 ax=subplot(431),
@@ -110,7 +110,7 @@ box off,
 
 
 %%
-longi=load('mats/test_regr_motion_2.mat','cp_s2','suvr_longi_s2','id_subj_early2','idx_s2')
+longi=load('test_regr_motion_2.mat','cp_s2','suvr_longi_s2','id_subj_early2','idx_s2')
 
 ax=subplot(433),
 [r2,p2]=corr(longi.cp_s2,longi.suvr_longi_s2,'rows','pairwise','type','spearman'),
@@ -124,7 +124,7 @@ set(gca,'fontsize', 20),
 set(gca,'linewidth',3),
 box off,
 %%
-load('mats/test_regr_motion_3.mat','id_subj_early2_s2','tmp*')
+load('test_regr_motion_3.mat','id_subj_early2_s2','tmp*')
 
 [r12_tmp,p12_tmp]=corr((tmp1),(tmp2),'rows','pairwise','type','spearman'),%palm_inormal%
 [r12_tmp2,p12_tmp2]=corr((tmp3),(tmp4),'rows','pairwise','type','spearman'),%
@@ -150,7 +150,7 @@ set(gca,'linewidth',3),
 box off,ylim([-0.02 0.06])
 %% fig3
 
-load('mats/test_regr_motion_4.mat','r_test2_s2_regr','longi_pet_diff_sj_E_s2','id_subj_s2_19')
+load('test_regr_motion_4.mat','r_test2_s2_regr','longi_pet_diff_sj_E_s2','id_subj_s2_19')
 
 ax=subplot(439),
 [r2,p2]=corr(longi_pet_diff_sj_E_s2,(r_test2_s2_regr),'rows','pairwise','type','spearman')%
@@ -163,7 +163,7 @@ set(gca,'fontsize', 20),
 set(gca,'linewidth',3),
 box off,
 %%
-load('mats/fig4_regr_motion.mat','id_tmp22','csf_abeta_s2','fc_dmn_gs_s2','fc_dmn_gsr_s2','fc_sm_gs_s2','fc_sm_gsr_s2','fc_sm_dmn_gs_s2','fc_sm_dmn_gsr_s2')
+load('fig4_regr_motion.mat','id_tmp22','csf_abeta_s2','fc_dmn_gs_s2','fc_dmn_gsr_s2','fc_sm_gs_s2','fc_sm_gsr_s2','fc_sm_dmn_gs_s2','fc_sm_dmn_gsr_s2')
 
 ax=subplot(4,3,10),
 [r2,p2]=corr((csf_abeta_s2),(fc_dmn_gs_s2),'rows','pairwise','type','spearman'),%,'type','spearman'%%palm_inormal
