@@ -24,7 +24,7 @@ https://www.mathworks.com/content/dam/mathworks/mathworks-dot-com/support/sysreq
 https://www.mathworks.com/content/dam/mathworks/mathworks-dot-com/support/sysreq/files/system-requirements-release-2019b-macintosh.pdf
 
 
-2. Installation guide:
+2. Downloading and Installation guide:
 https://www.mathworks.com/products/new_products/release2019b.html
 
 3. Demo (all the de-identified data to generate the figures have been provided)
